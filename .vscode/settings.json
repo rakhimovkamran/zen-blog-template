@@ -1,0 +1,32 @@
+{
+  "search.exclude": {
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/node_modules": true,
+    ".next": true
+  },
+
+  "files.exclude": {
+    "package-lock.json": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "node_modules": true,
+    "yarn.lock": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    ".next": true
+  },
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.tslint": true,
+    "source.fixAll.stylelint": true
+  }
+}
